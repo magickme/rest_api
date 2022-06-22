@@ -26,7 +26,10 @@
   },
   "homepage": "https://github.com/magickme/rest_api#readme",
   "devDependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "jest": "^28.1.1"
+    "jest": "^28.1.1",
+    "pg": "^8.7.3",
+    "pgtools": "^0.3.2"
   }
 }
