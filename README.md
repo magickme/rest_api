@@ -38,7 +38,22 @@ CREATE TABLE cart (
     {by book id}_incart boolean
 );
 
+## Endpoints
+
+Proposed Endpoints
+
++ POST /register
++ POST /login
++ GET /products?category={categoryId}
++ GET /products/{productId}
++ GET /users
++ GET /users/{userId}
++ PUT /users/{userId}
++ POST /cart/{cartId}/checkout
++ GET /orders
++ GET /orders/{orderId}
+
 ## Technologies Used
-Node / Express.js
-PostgreSQL
-pgtools
++ Node / Express.js
++ PostgreSQL
++ pgtools
